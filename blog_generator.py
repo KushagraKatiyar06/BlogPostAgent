@@ -2,6 +2,8 @@ from content_generation_agent import ContentGenerationAgent
 from research_agent import ResearchAgent
 from seo_optimization_agent import SEOOptimizationAgent
 from proofreading_agent import ProofreadingAgent
+import random
+
 
 class BlogGenerator:
     def __init__(self):
@@ -19,7 +21,7 @@ class BlogGenerator:
             print("No trending topics found.")
             return
 
-        selected_topic = trending_topics[0]  
+        selected_topic = random.choice(trending_topics)
         print(f"Selected Topic: {selected_topic}")
 
         #Uses generation agent to generate material for the blog.

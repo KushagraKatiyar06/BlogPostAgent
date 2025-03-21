@@ -7,9 +7,9 @@ class SEOOptimizationAgent:
     def optimize_content(self, content):
         print("Optimizing content for SEO...")
 
-        content = self.ensure_keyword_placement(content)
+        #content = self.ensure_keyword_placement(content)
 
-        content = self.improve_readability(content)
+        #content = self.improve_readability(content)
 
         return content
 

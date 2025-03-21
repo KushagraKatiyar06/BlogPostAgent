@@ -7,4 +7,5 @@ class ProofreadingAgent:
         blob = TextBlob(content)
         corrected_content = blob.correct()
 
-        return str(corrected_content)
+        #return str(corrected_content)
+        return str(content)

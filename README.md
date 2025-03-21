@@ -48,6 +48,7 @@ Step 5: ProofreadingAgent checks for grammar mistakes.
 Step 6: Final blog is saved in output/ folder.
 
 🛠️ Installation
+
 🔹 1. Clone the Repository
 
 git clone https://github.com/your-username/BlogPostAgent.git
@@ -70,21 +71,7 @@ python blog_generator.py
 
 The blog post will be saved as output/blog.md.
 
-📂 File Structure
-bash
-Copy
-📂 BlogPostAgent
-│── 📜 blog_generator.py          # Main script
-│── 📜 research_agent.py          # Finds trending HR topics
-│── 📜 content_planning_agent.py  # Creates blog structure
-│── 📜 content_generation_agent.py# Writes blog content
-│── 📜 seo_optimization_agent.py  # SEO keyword optimization
-│── 📜 proofreading_agent.py      # Fixes grammar issues
-│── 📂 output/                    # Stores generated blog posts
-│── 📜 .env                        # Stores API keys
-│── 📜 requirements.txt           # Dependencies
-│── 📜 README.md                  # Project documentation
-📌 Technologies Used
+Technologies Used
 ✅ Python – Main programming language
 ✅ DeepSeek API – AI-powered content generation
 ✅ SerpAPI – Web search & research
